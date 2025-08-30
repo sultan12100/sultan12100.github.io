@@ -1307,7 +1307,9 @@
                 from_email: formData.get('email'),
                 message: formData.get('message'),
                 to_name: 'Sultan Hamad',
-                reply_to: formData.get('email')
+                reply_to: formData.get('email'),
+                page_url: window.location.href,
+                page_title: document.title
             };
             
             // Show loading state
